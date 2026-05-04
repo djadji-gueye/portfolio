@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Papa Djadji Gueye — Fullstack Senior Developer</title>
+  <title>Papa Djadji Gueye — Fullstack Senior Developer · Dakar, Remote</title>
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237c6dfa'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-weight='bold' font-size='13' fill='white'%3EPDG%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -808,6 +808,9 @@
 
     /* RESPONSIVE */
     @media (max-width: 768px) {
+      .yitewo-grid {
+        grid-template-columns: 1fr !important;
+      }
       nav {
         padding: 16px 24px;
       }
@@ -1036,6 +1039,7 @@
       <li><a href="#about">À propos</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#experience">Expérience</a></li>
+      <li><a href="#yitewo" style="color:var(--accent3);">Yitewo ✦</a></li>
       <li><a href="#projects">Projets</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -1059,7 +1063,7 @@
     </div>
     <div class="hero-inner">
       <div class="hero-badge">
-        Disponible pour nouvelles missions
+        ✦ Disponible · Remote &amp; Dakar · Réponse sous 24h
       </div>
       <h1>
         <span class="line">Fullstack</span>
@@ -1067,29 +1071,29 @@
         <span class="line dim">Developer.</span>
       </h1>
       <p class="hero-desc">
-        Architecte backend & mobile avec +7 ans d'expérience dans la conception de plateformes scalables — Fintech,
-        SaaS, E-commerce. NestJS · Flutter · AWS · Microservices.
+        8 ans à concevoir des plateformes qui tiennent en production — Fintech, E-commerce, SaaS. Je code, j'architecture, je déploie. Et quand le projet est le mien, je le lance aussi&nbsp;: <strong style="color:var(--accent3)">Yitewo</strong>, marketplace nationale sénégalaise, conçue et déployée en solo.
       </p>
       <div class="hero-ctas">
-        <a href="#projects" class="btn-primary">Voir mes projets</a>
+        <a href="#yitewo" class="btn-primary">→ Voir Yitewo</a>
+        <a href="#projects" class="btn-ghost">Tous les projets</a>
         <a href="#contact" class="btn-ghost">Me contacter</a>
       </div>
       <div class="hero-stats">
         <div>
           <div class="stat-num">8<span>+</span></div>
-          <div class="stat-label">Années d'exp.</div>
+          <div class="stat-label">Ans d'expérience</div>
         </div>
         <div>
-          <div class="stat-num">5<span>+</span></div>
+          <div class="stat-num">7<span>+</span></div>
           <div class="stat-label">Plateformes livrées</div>
         </div>
         <div>
-          <div class="stat-num">3<span>×</span></div>
-          <div class="stat-label">Secteurs clés</div>
+          <div class="stat-num">14</div>
+          <div class="stat-label">Régions couvertes</div>
         </div>
         <div>
-          <div class="stat-num">∞</div>
-          <div class="stat-label">Lignes de code</div>
+          <div class="stat-num">1<span>solo</span></div>
+          <div class="stat-label">Startup fondée</div>
         </div>
       </div>
     </div>
@@ -1309,6 +1313,98 @@
     </div>
   </section>
 
+  <!-- YITEWO FEATURED SECTION -->
+  <section id="yitewo" style="max-width:1200px;margin:0 auto;padding:0 60px 80px;">
+    <div class="section-label">Projet Fondateur</div>
+    <h2>Yitewo<br><span style="color:var(--muted)">Solo Build · En Production</span></h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;" class="yitewo-grid">
+      <div>
+        <p style="color:var(--muted);font-size:14px;line-height:1.9;margin-bottom:28px;">
+          <strong style="color:var(--text)">Yitewo</strong> est une marketplace de quartier sénégalaise — conçue, développée et déployée entièrement en solo. Elle connecte les habitants des 14 régions du Sénégal avec les boutiques, restaurants et prestataires de services locaux, avec un modèle zéro-commission au lancement.
+        </p>
+        <p style="color:var(--muted);font-size:14px;line-height:1.9;margin-bottom:32px;">
+          Ce projet illustre ma capacité à porter un produit de bout en bout : architecture backend, frontend responsive, infrastructure cloud, et stratégie produit. Pas un side-project — une vraie plateforme en production.
+        </p>
+        <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:32px;">
+          <div style="display:flex;align-items:flex-start;gap:14px;">
+            <span style="color:var(--accent);font-size:11px;margin-top:3px;">→</span>
+            <div>
+              <div style="font-size:12px;color:var(--text);font-weight:600;margin-bottom:2px;">Backend NestJS + Prisma ORM</div>
+              <div style="font-size:11px;color:var(--muted);">API RESTful, authentification JWT, gestion des rôles, upload médias Cloudinary</div>
+            </div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:14px;">
+            <span style="color:var(--accent);font-size:11px;margin-top:3px;">→</span>
+            <div>
+              <div style="font-size:12px;color:var(--text);font-weight:600;margin-bottom:2px;">Frontend Next.js + TypeScript</div>
+              <div style="font-size:11px;color:var(--muted);">SSR, SEO optimisé, responsive, design system cohérent sur toutes les pages</div>
+            </div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:14px;">
+            <span style="color:var(--accent);font-size:11px;margin-top:3px;">→</span>
+            <div>
+              <div style="font-size:12px;color:var(--text);font-weight:600;margin-bottom:2px;">Infrastructure Supabase + Render</div>
+              <div style="font-size:11px;color:var(--muted);">Base de données PostgreSQL managée, CI/CD automatisé, environnements staging/prod</div>
+            </div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:14px;">
+            <span style="color:var(--accent3);font-size:11px;margin-top:3px;">→</span>
+            <div>
+              <div style="font-size:12px;color:var(--text);font-weight:600;margin-bottom:2px;">Couverture nationale — 14 régions</div>
+              <div style="font-size:11px;color:var(--muted);">Dakar, Thiès, Saint-Louis, Ziguinchor, Kaolack et toutes les régions du Sénégal</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="https://www.yitewo.com" target="_blank" class="btn-primary" style="font-size:11px;padding:12px 24px;">Voir Yitewo →</a>
+          <span style="border:1px solid rgba(109,250,188,0.3);color:var(--accent3);padding:12px 20px;border-radius:6px;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">En production</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:28px;border-left:2px solid var(--accent);">
+          <div style="font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:16px;">Stack Technique</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <span class="tag">NestJS</span>
+            <span class="tag green">Next.js</span>
+            <span class="tag pink">TypeScript</span>
+            <span class="tag">Prisma</span>
+            <span class="tag pink">Supabase</span>
+            <span class="tag green">PostgreSQL</span>
+            <span class="tag">Cloudinary</span>
+            <span class="tag pink">Render</span>
+            <span class="tag green">CI/CD</span>
+            <span class="tag">JWT/OAuth2</span>
+          </div>
+        </div>
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:28px;border-left:2px solid var(--accent2);">
+          <div style="font-size:11px;color:var(--accent2);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:16px;">Ce que ça prouve</div>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <div style="display:flex;gap:10px;align-items:center;">
+              <div style="width:6px;height:6px;background:var(--accent2);border-radius:50%;flex-shrink:0;"></div>
+              <span style="font-size:12px;color:var(--muted);">Capacité à livrer un produit complet de A à Z</span>
+            </div>
+            <div style="display:flex;gap:10px;align-items:center;">
+              <div style="width:6px;height:6px;background:var(--accent2);border-radius:50%;flex-shrink:0;"></div>
+              <span style="font-size:12px;color:var(--muted);">Architecture scalable pensée pour la croissance</span>
+            </div>
+            <div style="display:flex;gap:10px;align-items:center;">
+              <div style="width:6px;height:6px;background:var(--accent2);border-radius:50%;flex-shrink:0;"></div>
+              <span style="font-size:12px;color:var(--muted);">Prise de décision produit autonome</span>
+            </div>
+            <div style="display:flex;gap:10px;align-items:center;">
+              <div style="width:6px;height=6px;background:var(--accent2);border-radius:50%;flex-shrink:0;"></div>
+              <span style="font-size:12px;color:var(--muted);">Compréhension du marché africain & local</span>
+            </div>
+          </div>
+        </div>
+        <div style="background:linear-gradient(135deg,rgba(124,109,250,0.08),rgba(109,250,188,0.04));border:1px solid rgba(124,109,250,0.2);border-radius:8px;padding:24px;">
+          <div style="font-family:'Syne',sans-serif;font-size:13px;color:var(--accent);margin-bottom:8px;">En cours — Partenariat Maad.io</div>
+          <p style="font-size:11px;color:var(--muted);line-height:1.7;">Discussion en cours avec Maad, startup B2B qui digitalise le commerce informel au Sénégal — pour intégrer leur réseau de boutiquiers et mutualiser la logistique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- PROJECTS -->
   <section id="projects" style="max-width:1200px;margin:0 auto;padding:0 60px 120px;">
     <div class="section-label">Réalisations</div>
@@ -1382,11 +1478,11 @@
         </div>
       </div>
 
-      <div class="project-card reveal">
-        <div class="project-number">07</div>
-        <div class="project-sector">Marketplace · Services locaux</div>
-        <div class="project-name"><a href="https://www.yitewo.com" target="_blank" style="color:inherit;text-decoration:none;">Yitewo</a></div>
-        <p class="project-desc">Marketplace sénégalaise connectant habitants, boutiques, restaurants et prestataires de services. Conçu et déployé en solo — backend, frontend et infrastructure.</p>
+      <div class="project-card reveal" style="border-color:rgba(124,109,250,0.3);background:linear-gradient(135deg,rgba(124,109,250,0.06),var(--card));">
+        <div class="project-number" style="color:rgba(124,109,250,0.2);">07</div>
+        <div class="project-sector" style="color:var(--accent3);">Marketplace · Afrique · Solo Build ✦ En production</div>
+        <div class="project-name"><a href="https://www.yitewo.com" target="_blank" style="color:var(--accent);text-decoration:none;">Yitewo ↗</a></div>
+        <p class="project-desc">Marketplace sénégalaise connectant habitants, boutiques, restaurants et prestataires de services. Conçu, développé et déployé en solo — backend, frontend, infrastructure et stratégie produit. <strong style="color:var(--text)">14 régions. Zéro commission.</strong></p>
         <div class="exp-tech">
           <span class="tag">NestJS</span><span class="tag green">Next.js</span><span class="tag pink">TypeScript</span><span class="tag">Prisma</span><span class="tag pink">Supabase</span><span class="tag green">Cloudinary</span><span class="tag pink">Render</span>
         </div>
@@ -1404,8 +1500,7 @@
           Travaillons<br><span class="accent">ensemble.</span>
         </div>
         <p class="contact-sub">
-          Disponible pour des missions freelance, des postes fulltime ou des collaborations techniques. Réponse sous
-          24h.
+          Disponible pour des postes fulltime (remote ou Dakar), des missions freelance longue durée, ou des collaborations techniques sur des produits à fort impact. Réponse sous 24h.
         </p>
       </div>
       <div class="contact-links">
@@ -1441,14 +1536,22 @@
           </div>
           <div class="contact-link-arrow">→</div>
         </a> -->
+        <a href="mailto:sunutexegroup@gmail.com?subject=Demande CV — Papa Djadji Gueye&body=Bonjour Papa, je souhaite recevoir votre CV." class="contact-link">
+          <div class="contact-link-icon">📄</div>
+          <div class="contact-link-info">
+            <div class="contact-link-label">CV</div>
+            <div class="contact-link-value">Demander mon CV par email</div>
+          </div>
+          <div class="contact-link-arrow">→</div>
+        </a>
       </div>
     </div>
   </div>
 
   <!-- FOOTER -->
   <footer>
-    <div>Papa Djadji Gueye — Fullstack Senior Developer · <span style="color:var(--accent)">2025</span></div>
-    <div>Dakar, Sénégal · Disponible remote</div>
+    <div>Papa Djadji Gueye — Fullstack Senior Developer · Fondateur <a href="https://www.yitewo.com" target="_blank" style="color:var(--accent);text-decoration:none;">Yitewo</a> · <span style="color:var(--accent)">2025</span></div>
+    <div>Dakar, Sénégal · Disponible remote worldwide</div>
   </footer>
 
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
